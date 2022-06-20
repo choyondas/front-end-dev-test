@@ -1,0 +1,107 @@
+.banner{
+    background-image:url(/src/images/banner/ban1.png);
+    width:100vw;
+    height:100vh;
+}
+.contentDiv{
+margin-left: 140px;
+    margin-right: 130px;
+    
+}
+
+/* navigation section */
+nav .logo img {
+    width:136px;
+    
+
+}
+
+nav {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    
+    padding-top:80px;
+}
+.mainNav ul{
+    display:flex;
+    gap: 40px;
+}
+.contactNav ul{
+    display:flex;
+    gap: 5px;
+}
+.contactNav ul li{
+    width:32px;
+    height:32px;
+    background-color:black;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.contactNav ul li span{
+  color: #57f287;
+} 
+.mint{
+    width:131px;
+    height:52px;
+    border-radius: 60px;
+    background: #57F287;
+    color: #000000;
+    font-size:18px;
+    font-weight: 600;
+
+}
+.contactNav{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.content{
+    position: relative;
+}
+.content h2{
+    font-size:65px;
+    line-height: 85px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 120px;
+    width: 75%;
+    margin:0 auto;
+    color: #57F287;
+}
+.content p{
+    color:white;
+    width: 60%;
+    height:108px;
+    margin:30px auto;
+    text-align: center;
+    
+}
+
+
+.pigs .pig1 {
+    position: absolute;
+    top:60%;
+    left:12%;
+
+    width: 98px;
+
+}
+.pigs .pig2 {
+    position: absolute;
+    top:80%;
+    width:190px;
+    left:15%;
+    
+
+}
+.pigs .pig3 {
+    position: absolute;
+    top:70%;
+   right:10%;
+   width:200px;
+    
+
+}
