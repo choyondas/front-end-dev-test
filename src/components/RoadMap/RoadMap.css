@@ -1,0 +1,53 @@
+.roadmaps{
+    background-color: black;
+    padding-top: 150px;
+}
+
+.roadItem h2{
+    color : #57F287;
+    display:flex;
+    flex: right;;
+    
+}
+
+.roadCol p{
+    color:white;
+    text-align:left;
+}
+.roadCol{
+    padding-top: 50px;
+    display:flex;
+    gap:80px;
+    
+}
+
+.roadContent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap:80px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+table td{
+    padding:  20px;
+    vertical-align: top;
+    
+    
+    
+}
+table h2{
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
+
+table td:nth-child(2){
+    padding: 20px;
+    border-left: 2px dashed #57F287;
+    
+}
+
+
