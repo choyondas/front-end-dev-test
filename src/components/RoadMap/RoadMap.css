@@ -31,7 +31,7 @@
 }
 
 table td{
-    padding:  20px;
+    padding:  10px;
     vertical-align: top;
     
     
@@ -45,9 +45,13 @@ table h2{
 
 
 table td:nth-child(2){
-    padding: 20px;
+    padding: 10px;
     border-left: 2px dashed #57F287;
     
 }
 
 
+.dotIcon{
+    color:#57F287;
+    font-size:20px;
+}
