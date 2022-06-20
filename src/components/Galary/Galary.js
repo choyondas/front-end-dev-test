@@ -48,10 +48,12 @@ const Galary = () => {
                 modules={[Autoplay, Pagination]}
                 autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+                    disableOnInteraction: false,
+          reverseDirection:true
         }}
                 className="mySwiper"
                 loop={true}
+                
       >
         <SwiperSlide><img src={g1} alt="" /></SwiperSlide>
         <SwiperSlide><img src={g2} alt="" /></SwiperSlide>
