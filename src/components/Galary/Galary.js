@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import { Pagination } from "swiper";
+import { Autoplay,Pagination } from "swiper";
 
 import './Galary.css';
 
@@ -30,9 +30,7 @@ const Galary = () => {
                  <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
+        
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -43,12 +41,17 @@ const Galary = () => {
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
+            slidesPerView: 6,
+            spaceBetween: 30,
           },
         }}
-        modules={[Pagination]}
-        className="mySwiper"
+                modules={[Autoplay, Pagination]}
+                autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+                className="mySwiper"
+                loop={true}
       >
         <SwiperSlide><img src={g1} alt="" /></SwiperSlide>
         <SwiperSlide><img src={g2} alt="" /></SwiperSlide>
@@ -56,7 +59,57 @@ const Galary = () => {
         <SwiperSlide><img src={g4} alt="" /></SwiperSlide>
         <SwiperSlide><img src={g5} alt="" /></SwiperSlide>
         <SwiperSlide><img src={g1} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g2} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g3} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g4} alt="" /></SwiperSlide>
+       
+       
+        
+            </Swiper>
+
+
+
+{/* second swiper */}
+
+
+            <br />
+                 <Swiper
+        slidesPerView={1}
+        spaceBetween={10}
+        
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 6,
+            spaceBetween: 30,
+          },
+        }}
+                modules={[Autoplay, Pagination]}
+                autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+                className="mySwiper"
+                loop={true}
+      >
         <SwiperSlide><img src={g1} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g2} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g3} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g5} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g1} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g2} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g3} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={g4} alt="" /></SwiperSlide>
+       
+       
         
       </Swiper>
         </div>
