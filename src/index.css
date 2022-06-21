@@ -52,6 +52,11 @@ img {
   width: 100%;
   object-fit: cover;
 }
+a {
+ text-decoration: none !important;
+ 
+
+}
 
 
 /* media queries medium device */
