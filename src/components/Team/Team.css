@@ -56,7 +56,10 @@
 
 .itemCardRow{
     display: flex;
-    gap:20px;
+    gap:10px;
     
     
+}
+.iconteam ul{
+    padding-left:  0px !important;
 }

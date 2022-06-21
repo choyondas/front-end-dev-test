@@ -2,6 +2,7 @@
 import './App.css';
 import Banner from './components/Banner/Banner';
 import Benefits from './components/Benefits/Benefits';
+import Faq from './components/Faq/Faq';
 import Galary from './components/Galary/Galary';
 import RoadMap from './components/RoadMap/RoadMap';
 import Team from './components/Team/Team';
@@ -13,7 +14,8 @@ function App() {
       <Benefits />
       <Galary />
       <RoadMap />
-      <Team/>
+      <Team />
+      <Faq/>
       
     </div>
   );
