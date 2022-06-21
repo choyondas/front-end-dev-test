@@ -5,6 +5,9 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { GiSailboat } from 'react-icons/gi';
 import img1 from '../../images/pig/1.png';
+import img2 from '../../images/pig/2.png';
+import img3 from '../../images/pig/3.png';
+import img4 from '../../images/pig/4.png';
 
 const Team = () => {
     return (
@@ -26,7 +29,7 @@ const Team = () => {
                          </div>
                     </div>
                     <div className="itemCardCol">
-                        <img src={img1} alt="" />
+                        <img src={img2} alt="" />
                         <h3>Muadin</h3>
                         <p>Co-Founder</p>
                         <div className="iconteam">
@@ -39,7 +42,7 @@ const Team = () => {
                          </div>
                     </div>
                     <div className="itemCardCol">
-                        <img src={img1} alt="" />
+                        <img src={img3} alt="" />
                         <h3>Muadin</h3>
                         <p>Co-Founder</p>
                         <div className="iconteam">
@@ -52,7 +55,7 @@ const Team = () => {
                          </div>
                     </div>
                     <div className="itemCardCol">
-                        <img src={img1} alt="" />
+                        <img src={img4} alt="" />
                         <h3>Muadin</h3>
                         <p>Co-Founder</p>
                         <div className="iconteam">
