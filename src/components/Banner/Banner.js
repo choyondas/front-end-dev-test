@@ -21,8 +21,8 @@ const Banner = () => {
         <div className="banner" id='banner'>
             <div className="contentDiv">
                 
-                 <Fade top duration={3000}>
           <Nav/>
+                 <Fade top duration={3000}>
         </Fade>
 
 

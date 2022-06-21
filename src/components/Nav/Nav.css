@@ -6,6 +6,7 @@ header{
     padding:0 2rem;
     color:white;
     padding-top:100px;
+    z-index: 4000;
    
     
 }
