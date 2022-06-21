@@ -9,6 +9,7 @@
 .contentDiv{
 margin-left: 140px;
 margin-right: 130px;
+position: relative;
     
 }
 
@@ -125,7 +126,7 @@ nav .logo img {
                 .contentDiv {
                     margin-left: 50px;
                     margin-right: 50px;
-                    position: relative;
+                    
         
                 }
                                 .pigs .pig1 {
@@ -167,6 +168,12 @@ nav .logo img {
             color: #57F287;
         }
 
+               
+.contentDiv {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
 
                 
 }
