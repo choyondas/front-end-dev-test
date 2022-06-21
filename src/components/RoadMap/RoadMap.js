@@ -3,16 +3,30 @@ import './RoadMap.css';
 import {BsDot} from 'react-icons/bs'
 
 import road from '../../images/roadmap/Group 3806.png';
+
+// animation
+
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
+
+
 const RoadMap = () => {
     return (
-        <div className="roadmaps">
+        <div className="roadmaps" id='roadmap'>
                 <div className="contentDiv">
                 <div className="roadItem">
-                    <h2 className='roadtitle'>Roadmap</h2>
+                    <Zoom top duration={4000}>
+          <h2 className='roadtitle'>Roadmap</h2>
+        </Zoom>
+                    
 
                     <div className="roadContent">
-                        <div className="roadLeft">
-                       
+
+                        <Slide left>
+           <div className="roadLeft">
+
+
+
 
 <table>
 
@@ -66,9 +80,17 @@ operations.
 </table>
                             
                         </div>
-                        <div className="roadRight">
+        </Slide>
+
+
+
+
+                       <Slide right duration={4000}>
+          <div className="roadRight">
                             <img src={road} alt="" />
                         </div>
+        </Slide>
+                        
                     </div>
                 </div>
             </div>

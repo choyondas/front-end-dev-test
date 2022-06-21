@@ -6,12 +6,14 @@ header{
     padding:0 2rem;
     color:white;
     padding-top:100px;
+   
     
 }
 
 nav a{
     margin:0 1.4rem;
     color:white;
+    padding-bottom:10px;
 
 }
 nav a:hover{
@@ -80,7 +82,7 @@ header .nav-btn{
         background-color: blue;
         z-index: 100;
         transition: 1s;
-        transform:translateY(-100vh);
+        transform:translateY(-100vh) ;
 
     }
     header .responsive_nav{

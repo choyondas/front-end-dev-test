@@ -9,13 +9,24 @@ import img2 from '../../images/pig/2.png';
 import img3 from '../../images/pig/3.png';
 import img4 from '../../images/pig/4.png';
 
+//animation animations
+
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
+
 const Team = () => {
     return (
-        <div className="team">
+        <div className="team" id='team'>
             <div className="teamItem contentDiv">
-                <h2>The Team</h2>
+                
+                <Zoom top duration={4000}>
+          <h2>The Team</h2>
+        </Zoom>
                 <div className="itemCardRow">
-                    <div className="itemCardCol">
+
+
+                     <Slide top duration={2000}>
+          <div className="itemCardCol">
                         <img src={img1} alt="" />
                         <h3>Muadin</h3>
                         <p>Co-Founder</p>
@@ -28,7 +39,9 @@ const Team = () => {
                     </ul>
                          </div>
                     </div>
-                    <div className="itemCardCol">
+                    </Slide>
+                    <Slide bottom duration={3000}>
+          <div className="itemCardCol">
                         <img src={img2} alt="" />
                         <h3>Muadin</h3>
                         <p>Co-Founder</p>
@@ -41,7 +54,10 @@ const Team = () => {
                     </ul>
                          </div>
                     </div>
-                    <div className="itemCardCol">
+        </Slide>
+                    
+                     <Slide top duration={5000}>
+          <div className="itemCardCol">
                         <img src={img3} alt="" />
                         <h3>Muadin</h3>
                         <p>Co-Founder</p>
@@ -54,7 +70,9 @@ const Team = () => {
                     </ul>
                          </div>
                     </div>
-                    <div className="itemCardCol">
+        </Slide>
+                    <Slide bottom duration={5500}>
+         <div className="itemCardCol">
                         <img src={img4} alt="" />
                         <h3>Muadin</h3>
                         <p>Co-Founder</p>
@@ -67,6 +85,8 @@ const Team = () => {
                     </ul>
                          </div>
                     </div>
+        </Slide>
+                    
                     
                 </div>
             </div>

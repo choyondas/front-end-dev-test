@@ -26,7 +26,7 @@ import g5 from '../../images/pig/9.png';
 
 const Galary = () => {
     return (
-        <div className="galary">
+        <div className="galary" id ='shop'>
                  <Swiper
         slidesPerView={1}
         spaceBetween={10}

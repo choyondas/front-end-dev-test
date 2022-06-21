@@ -5,16 +5,25 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { GiSailboat } from 'react-icons/gi';
+
+
+
+
+import Slide from 'react-reveal/Slide';
+
 const Footer = () => {
     return (
-        <div className='footer'>
-            <div className="footerDiv">
+        <div className='footer' id="footer">
+            
+
+             <Slide bottom  duration={4000}>
+          <div className="footerDiv">
                 <div className="footerClass">
                     <img src={logoF}alt="" />
                 </div>
                 <div className="footerClass">
                     <ul>
-                        <li> <a href="#about">About</a> </li>
+                        <li> <a href="#banner">About</a> </li>
                         <li> <a href="#team">Team</a> </li>
                         <li> <a href="#benefits">Benefits</a> </li>
                         <li> <a href="#faqs">FAQs</a> </li>
@@ -32,11 +41,15 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+        </Slide>
 
-            <div className="copyright">
+             <Slide bottom duration={7000}>
+          <div className="copyright">
                 <p>© 2022 - Passive Piggy Banks - All rights reserved. </p>
 
             </div>
+        </Slide>
+            
         </div>
     );
 };
