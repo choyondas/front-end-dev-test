@@ -61,3 +61,36 @@ justify-content: center;
     padding-top: 30px;
     
 }
+
+@media only screen and (max-width: 770px) {
+.footerDiv {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        gap:50px;
+    }
+
+
+}
+@media only screen and (max-width: 770px) {
+.contactNavigation ul li {
+
+        height: 40px;
+        width: 40px;
+        background-color: #57F287;
+        border-radius: 50%;
+    }
+
+        .contactNavigation ul li a {
+    
+            color: black;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+        }
+
+
+}

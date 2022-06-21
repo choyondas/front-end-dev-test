@@ -73,7 +73,7 @@ nav .logo img {
 
 @media only screen and (max-width: 1435px) {
 .content h2 {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 45px;
         font-weight: 500;
         text-align: center;
@@ -111,9 +111,9 @@ nav .logo img {
 
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 770px) {
     .content h2 {
-            font-size: 20px;
+            font-size: 30px;
             line-height: 35px;
             font-weight: 500;
             text-align: center;
@@ -125,6 +125,7 @@ nav .logo img {
                 .contentDiv {
                     margin-left: 50px;
                     margin-right: 50px;
+                    position: relative;
         
                 }
                                 .pigs .pig1 {
@@ -161,7 +162,7 @@ nav .logo img {
             font-weight: 500;
             text-align: center;
             padding-top: 80px;
-            width: 10%;
+            width: 100%;
             margin: 0 auto;
             color: #57F287;
         }

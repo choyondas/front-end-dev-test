@@ -63,3 +63,31 @@
 .iconteam ul{
     padding-left:  0px !important;
 }
+
+
+@media only screen and (max-width: 770px) {
+  
+.itemCardRow {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+
+
+    }
+
+}
+@media only screen and (max-width: 420px) {
+  
+.itemCardCol img {
+        width: 278px;
+        height:278px;
+        align-items: center;
+        padding: 10px
+    }
+
+        .itemCardCol {
+            width: 300px;
+            text-align: center;
+            padding-bottom: 60px;
+        }
+}
