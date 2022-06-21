@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner';
 import Benefits from './components/Benefits/Benefits';
 import Galary from './components/Galary/Galary';
 import RoadMap from './components/RoadMap/RoadMap';
+import Team from './components/Team/Team';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Banner />
       <Benefits />
       <Galary />
-      <RoadMap/>
+      <RoadMap />
+      <Team/>
       
     </div>
   );

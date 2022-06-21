@@ -9,6 +9,11 @@
     flex: right;;
     
 }
+.roadtitle{
+    font-size:48px;
+    font-weight:500;
+
+}
 
 .roadCol p{
     color:white;

@@ -1,0 +1,62 @@
+.team{
+    background-color: black;
+    padding-top:110px;
+    
+}
+.teamItem h2{
+    color:#57F287;
+    text-align: center;
+    font-size:48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.itemCardCol {
+ width:380px;
+ text-align: center;
+ padding-bottom: 50px;
+}
+.itemCardCol img{
+    width:378px;
+    height:378px;
+    padding:10px
+}
+.itemCardCol h3{
+    color:#57F287;
+    font-size:32px;
+    font-weight: 500;text-align: center;
+
+}
+.itemCardCol p{
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.iconteam ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-top: 30px;
+}
+.iconteam ul li a{
+    padding: 10px;
+    background:#57F287;
+    border-radius:50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black
+    
+
+}
+
+.itemCardRow{
+    display: flex;
+    gap:20px;
+    
+    
+}

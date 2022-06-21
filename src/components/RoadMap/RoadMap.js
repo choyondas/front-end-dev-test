@@ -8,7 +8,7 @@ const RoadMap = () => {
         <div className="roadmaps">
                 <div className="contentDiv">
                 <div className="roadItem">
-                    <h2>Roadmap</h2>
+                    <h2 className='roadtitle'>Roadmap</h2>
 
                     <div className="roadContent">
                         <div className="roadLeft">
